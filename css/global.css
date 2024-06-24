@@ -6,12 +6,14 @@ html{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .title{
-    flex: 1;
+   
     font-size: 1.4rem;
     text-align: center;
     font-weight: normal;
-    margin-top: 12%;
+    margin-top: 22%;
+    margin-bottom: 20%;
 }
 .grid-vertical{
     display: flex;
@@ -110,6 +112,7 @@ a.button{
     right: -15px;
     top: 12px;
     color: #afb1b6;
+    cursor: pointer;
 }
 .form-group::placeholder {
     color: #afb1b6;
@@ -121,4 +124,28 @@ a.button{
 form-centered{
     margin: auto;
 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+a.geral:link, a.general:visited{
+    color: #2563EB;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0,8rem;    
+}
+a.geral:hover{
+    color: #00c;
+    font-weight: 600;        
+}
+
+.button-post{
+    background-color: #0284c7;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 16px 4px 16px;
+    border-width: 0px;
+    max-height: 28 px;
 }
