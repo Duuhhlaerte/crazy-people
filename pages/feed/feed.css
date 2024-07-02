@@ -66,6 +66,30 @@ header{
 #notification-icon a:hover #container-notifications, #notification-icon a:hover #arrow-container-notifications{
     display: flex;
 }
+.card-notification-photo{
+    display: flex;
+    flex-direction:row;
+    position:absolute;
+    align-self:center;
+    
+}
+.card-notification-photo .profile-ball-notification{
+    background-color: #22AD5C;
+    border: 2px solid #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 9px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.card-notification-name{
+    display: flex;
+    position: relative;
+    top: 5px;
+    right: -35px;
+   
+}
 .card-notification-buttons{
     display: flex;
     justify-content: center;
@@ -80,6 +104,7 @@ header{
     padding: 4px 16px 4px 16px;
     max-height: 28 px;
     margin-top: 0px;
+    right: -10;
 }
 .card-notification{
     padding-left: 20px;
